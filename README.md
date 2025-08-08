@@ -2,12 +2,12 @@ AWS Topology Enumerator – single‑file web app
 
 What it does
 ------------
-• Lets you enumerate AWS resources using your own credentials (env, shared profile, or paste into the UI).
-• Works with **limited privileges** – anything that returns AccessDenied is skipped and reported as a warning.
-• Builds an **interactive graph** of resources and **network connections** (security-group flows, routes, LB listeners/targets, etc.).
-• Different colors: resource edges vs network/protocol edges. Click nodes/edges to see full AWS details.
-• Cross‑platform (Windows/Linux/Mac). One Python file. No DB. No telemetry.
-• **Built‑in tests**: visit `/_selftest` for quick checks; `/_health` for a health probe.
+Lets you enumerate AWS resources using your own credentials (env, shared profile, or paste into the UI).
+Works with **limited privileges** – anything that returns AccessDenied is skipped and reported as a warning.
+Builds an **interactive graph** of resources and **network connections** (security-group flows, routes, LB listeners/targets, etc.).
+Different colors: resource edges vs network/protocol edges. Click nodes/edges to see full AWS details.
+Cross‑platform (Windows/Linux/Mac). One Python file. No DB. No telemetry.
+**Built‑in tests**: visit `/_selftest` for quick checks; `/_health` for a health probe.
 
 Run it
 ------
